@@ -23,23 +23,23 @@
  function initialize() {
 
  /*
- http://openapi.map.naver.com/api/geocode.php?key=f32441ebcd3cc9de474f8081df1e54e3&encoding=euc-kr&coord=LatLng&query=¼­¿ïÆ¯º°½Ã ³ë¿ø±¸ ¼¶¹ç·Î 258
- À§ÀÇ ¸µÅ©¿¡¼­ µÚ¿¡ ÁÖ¼Ò¸¦ ÀûÀ¸¸é x,y °ªÀ» ±¸ÇÒ¼ö ÀÖ½À´Ï´Ù.
+ http://openapi.map.naver.com/api/geocode.php?key=f32441ebcd3cc9de474f8081df1e54e3&encoding=euc-kr&coord=LatLng&query=ì„œìš¸íŠ¹ë³„ì‹œ ë…¸ì›êµ¬ ì„¬ë°­ë¡œ 258
+ ìœ„ì˜ ë§í¬ì—ì„œ ë’¤ì— ì£¼ì†Œë¥¼ ì ìœ¼ë©´ x,y ê°’ì„ êµ¬í• ìˆ˜ ìˆìŠµë‹ˆë‹¤.
  */
- var Y_point = 36.3335795; // Y ÁÂÇ¥
- var X_point = 127.4253576; // X ÁÂÇ¥
- var zoomLevel = 18; // Ã¹ ·Î µù½Ã º¸ÀÏ ÁöµµÀÇ È®´ë ·¹º§
- var markerTitle = "¿Õ°ü½Ä´ç"; // ÇöÀç À§Ä¡ ¸¶Ä¿¿¡ ¸¶¿ì½º¸¦ ¿Ã·ÈÀ»¶§ ³ªÅ¸³ª´Â ÀÌ¸§
- var markerMaxWidth = 300; // ¸¶Ä¿¸¦ Å¬¸¯ÇßÀ»¶§ ³ªÅ¸³ª´Â ¸»Ç³¼±ÀÇ ÃÖ´ë Å©±â
+ var Y_point = 35.8685297; // Y ì¢Œí‘œ
+ var X_point = 128.6067343; // X ì¢Œí‘œ
+ var zoomLevel = 18; // ì²« ë¡œë”©ì‹œ ë³´ì¼ ì§€ë„ì˜ í™•ëŒ€ ë ˆë²¨
+ var markerTitle = "ì™•ê±°ë¯¸ì‹ë‹¹"; // í˜„ì¬ ìœ„ì¹˜ ë§ˆì»¤ì— ë§ˆìš°ìŠ¤ë¥¼ ì˜¬ë ¸ì„ë•Œ ë‚˜íƒ€ë‚˜ëŠ” ì´ë¦„
+ var markerMaxWidth = 300; // ë§ˆì»¤ë¥¼ í´ë¦­í–ˆì„ë•Œ ë‚˜íƒ€ë‚˜ëŠ” ë§í’ì„ ì˜ ìµœëŒ€ í¬ê¸°
 
- // ¸»Ç³¼± ³»¿ë
+ // ë§í’ì„  ë‚´ìš©
  var contentString = '<div id="content">' +
  '<div id="siteNotice">' +
  '</div>' +
- '<h3 id="firstHeading" class="firstHeading"><i>¿Õ°ü½Ä´ç</i></h3>' +
+ '<h3 id="firstHeading" class="firstHeading"><i>ì™•ê±°ë¯¸ì‹ë‹¹</i></h3>' +
  '<div id="bodyContent">' +
- '<p>´ëÀü±¤¿ª½Ã µ¿±¸ Áßµ¿ ¼±È­·Î196¹ø±æ 6<br />' +
- 'Tel. 042-221-1663</p>'
+ '<p>ëŒ€êµ¬ê´‘ì—­ì‹œ ì¤‘êµ¬ êµ­ì±„ë³´ìƒë¡œ 696-8<br />' +
+ 'Tel. 053-427-6380</p>'
  '</div>' +
  '</div>';
 
