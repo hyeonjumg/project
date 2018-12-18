@@ -1,0 +1,52 @@
+package custom2;
+
+public class Custom2 {
+	
+	private int custom2ID;
+	private String custom2Title;
+	private String userID;
+	private String custom2Date;
+	private String custom2Content;
+	private int custom2Available;
+	
+	
+	public int getCustom2ID() {
+		return custom2ID;
+	}
+	public void setCustom2ID(int custom2ID) {
+		this.custom2ID = custom2ID;
+	}
+	public String getCustom2Title() {
+		return custom2Title;
+	}
+	public void setCustom2Title(String custom2Title) {
+		this.custom2Title = custom2Title;
+	}
+	public String getUserID() {
+		return userID;
+	}
+	public void setUserID(String userID) {
+		this.userID = userID;
+	}
+	public String getCustom2Date() {
+		return custom2Date;
+	}
+	public void setCustom2Date(String custom2Date) {
+		this.custom2Date = custom2Date;
+	}
+	public String getCustom2Content() {
+		return custom2Content;
+	}
+	public void setCustom2Content(String custom2Content) {
+		this.custom2Content = custom2Content;
+	}
+	public int getCustom2Available() {
+		return custom2Available;
+	}
+	public void setCustom2Available(int custom2Available) {
+		this.custom2Available = custom2Available;
+	}
+	
+	
+
+}
